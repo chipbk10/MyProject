@@ -2,7 +2,7 @@
 # To build a project with SPM, you do not need to start by calling the command to resolve dependencies because it is included in the build.
 
 scheme=$1
-destination="platform=iOS Simulator,name=iPhone 11"
+destination=$2 # "platform=iOS Simulator,name=iPhone 11"
 
 # On local machines fetched and built dependencies are stored in the derived data directory,
 # ~/Library/Developer/Xcode/DerivedData
@@ -20,4 +20,3 @@ xcodebuild build -scheme $scheme -destination "$destination" # -clonedSourcePack
 # sources
 # [SPM - how to cache it with CI](https://www.uptech.team/blog/swift-package-manager)
 # [Building from the Command Line with Xcode FAQ](https://developer.apple.com/library/archive/technotes/tn2339/_index.html)
-
