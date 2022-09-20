@@ -76,9 +76,9 @@
 		69F0556328CF73B900B85B39 = {
 			isa = PBXGroup;
 			children = (
+				6952E4D428D9EEFD00ABFE6A /* MyProject */,
 				69F0558B28D1D7D000B85B39 /* MyProjectTests */,
 				69F0559828D1D84500B85B39 /* MyProjectUITests */,
-				6952E4D428D9EEFD00ABFE6A /* MyProject */,
 				69F0556D28CF73B900B85B39 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -203,9 +203,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6952E4D228D9EEFD00ABFE6A /* MyProject */,
 				69F0558928D1D7D000B85B39 /* MyProjectTests */,
 				69F0559628D1D84500B85B39 /* MyProjectUITests */,
-				6952E4D228D9EEFD00ABFE6A /* MyProject */,
 			);
 		};
 /* End PBXProject section */
